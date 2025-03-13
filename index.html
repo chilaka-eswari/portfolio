@@ -1,77 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <title>Eswari Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-wideh, initial-scale=1.0">
+    <title>Eswari| Protfolio</title>
+    <!-- ICONS BOX-->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS FILES-->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
-                <span>Eswari</span>
+
+    <!--HEADER MAIN-->
+    <header class="header">
+        <a href="#" class="logo">ESWARI</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>CH.ESWARI</h1>
+            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>I like to code web applications and javascript applications more. contact me for
+                custom works. </p>
+            <div class="social-media">
+                <a href="https://wa.me/+919959383029"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/chilaka-eswari-9a525b254"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/chilaka-eswari"><i class='bx bxl-github'></i></a>
             </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Projects</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Contact</a></div>
-                <div class="contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Download CV</a></div>
-            </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <a href="https://drive.google.com/file/d/1gCMSlZPcGG78dpp7Snl03lsRbRV8zWgD/view?usp=sharing"
+                class="btn">Download CV</a>
         </div>
-        <div class="dropdown">
-            <div class="links">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Contact Us</a>
-                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>
+
+        <div class="home-img">
+            <img src="" alt="">
         </div>
-    </nav>
-        <section>
-            <div class="main-container">
-               <!--<div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
-                    <img src="main.png" alt="">
-                </div>--> 
-                <div class="content">
-                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Eswari</span></h1>
-                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
-                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">I'm a front-end developer passionate about crafting
-                        exceptional user interfaces and I'm eager to collaborate
-                        with clients on freelance projects to bring their visions to life,
-                        so explore my portfolio and let's discuss your next web application.</p>
-                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
-                        <a href="#" ><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    </div>
-                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
-                        <button>More</button>
-                    </div>
-                </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="C:\Users\ch manasa\Downloads\IMG-20240524-WA0048-1.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm Eswari, An frontend developer. I like to code web applications and javascript applications more. I have worked
+                on many js projects, Some of my open source projects are pinned below make sure to check them out ❤.
+                As a frontend developer, I play a crucial role in creating the user interface and user experience of
+                websites and web applications. Here's a brief summary about me:<br>
+
+                my expertise:<br>
+
+                - Proficient in HTML, CSS, JavaScript, and relevant frameworks like React, Angular, or Vue<br>
+                - Skilled in designing and developing responsive, interactive, and visually appealing UI/UX
+                components<br>
+                - Experienced in using version control systems like Git and package managers like npm or yarn<br>
+                - Familiar with build tools like Webpack and testing frameworks like Jest or Enzyme<br>
+
+                my strengths:<br>
+
+                - Attention to detail and commitment to quality<br>
+                - Strong problem-solving and debugging skills<br>
+                - Excellent communication and teamwork skills<br>
+                - Ability to stay up-to-date with industry trends and emerging technologies<br>
+
+                my goals:<br>
+
+                - To continuously improve your skills and knowledge in frontend development<br>
+                - To create innovative and user-friendly interfaces that provide a seamless experience<br>
+                - To collaborate effectively with designers, backend developers, and other stakeholders<br>
+                - To stay current with industry best practices and new technologies<br>
+
+                my interests:<br>
+
+                - Frontend development trends and emerging technologies<br>
+                - UI/UX design principles and best practices<br>
+                - New tools and frameworks for improving development efficiency<br>
+                - Collaborating with others on complex projects and sharing knowledge<br>
+
+
+
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development is closely related to the job of designing the features and functionality of apps
+                    (web design). The term development is usually reserved for the actual construction of these things
+                </p>
+                <a href="#" class="btn">Read More</a>
             </div>
-        </section>
-       
-        <script>
-          AOS.init({offset:0});
-        </script>
-        <script>
-            function hamburg(){
-                const navbar = document.querySelector(".dropdown")
-                navbar.style.transform = "translateY(0px)"
-            }
-            function cancel(){
-                const navbar = document.querySelector(".dropdown")
-                navbar.style.transform = "translateY(-500px)"
-            }
-        </script>
+
+
+            <div class="services-box">
+                <i class='bx bxs-file-js'></i>
+                <h3>Backend Development</h3>
+                <p>Back-end development means working on server-side software, which focuses on everything you can't see
+                    on a website. Back-end developers ensure the website performs correctly, focusing on databases,
+                    back-end logic, application programming interface (APIs), architecture, and servers.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+            <div class="services-box">
+                <i class='bx bxs-guitar-amp'></i>
+                <h3>GUI Development</h3>
+                <p>A computer system's graphical user interface (GUI) uses visual elements that present information in
+                    an easy-to-understand-manor for the human user.Discover the importance of a good GUI, the 'WIMP'
+                    elements </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="name" placeholder="Full Name">
+                <input type="email" placeholder="Email Adress">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            
+
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Manasa | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
